@@ -10,7 +10,7 @@ export default function TelaDescricao() {
 
   return (
     <View style={styles.container}>
-      <Text>Descrições a seguir:</Text>
+      <Text>Descrições a seguir :</Text>
       <Text>Descrição dos vinhos: branco, rosé, tinto e seco.</Text>
     </View>
   );
