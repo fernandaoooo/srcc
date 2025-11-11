@@ -46,7 +46,7 @@ export default function App() {
             setTela('Catalogo')
           },
         })}
-         name="Catalogo" component={TelaCatalogo}
+         name="Catálogo" component={TelaCatalogo}
           options={{
             tabBarIcon: () =><FontAwesome5 name="wine-bottle" size={24} color={tela=='Catalogo'?'white':'#6b1900'}/>,
             tabBarActiveTintColor: 'white',
