@@ -1,0 +1,13 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "paths": {
+      "@/*":["./SRC/*"]
+    },
+    "strict": false,
+    "moduleResolution": "bundler", // or "node16" or "nodenext"
+    "allowJs": true, // Allow JavaScript files to be imported
+    "esModuleInterop": true // Enables a workaround for default imports
+  },
+  
+}
